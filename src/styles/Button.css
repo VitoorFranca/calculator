@@ -1,0 +1,44 @@
+.btn{
+    height: 48px;
+    width: 78px;
+    margin: auto;
+
+    border: solid 2px #333;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+
+    box-shadow: 4px 4px 3px 1px rgba(56,56,56,1);
+}
+
+.btn:active{
+    height: 46px;
+    width: 76px;
+    font-size: 1rem;
+
+    box-shadow: 4px 4px 3px -2px rgba(56,56,56,1);
+}
+
+@media (max-width: 450px){
+    .btn{
+        height: 48px;
+        width: 76px;
+    }
+    .btn:active{
+        height: 46px;
+        width: 74px;
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 400px){
+    .btn{
+        height: 48px;
+        width: 70px;
+    }
+    .btn:active{
+        height: 46px;
+        width: 68px;
+        font-size: 0.6rem;
+    }
+}
